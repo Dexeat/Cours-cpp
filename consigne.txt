@@ -1,0 +1,1 @@
+crée un jeu de jeu de monstre de poche, les faire combatre dans une arène 

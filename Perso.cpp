@@ -4,7 +4,6 @@ using namespace std;
 
 void Perso::takeDamage(int nbDamage){
     pv -= nbDamage;
-    
 
     if (pv<0)
     {

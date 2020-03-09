@@ -27,7 +27,10 @@ void combat(Perso mob1,Perso mob2){
             turn = 2;
             
         }
-
+        if (mob1.getPV() <= 0 || mob2.getPV() <= 0)
+        {
+            break;
+        }
         if (turn == 2)
         {
             cout << "Attaquer 1, defendre 2";
@@ -44,10 +47,10 @@ void combat(Perso mob1,Perso mob2){
             }
             turn = 1;
         }
-        /*if (mob1.getPV <= 0 || mob2.getPV <= 0)
+        if (mob1.getPV() <= 0 || mob2.getPV() <= 0)
         {
             break;
-        }*/
+        }
         
     }
     
